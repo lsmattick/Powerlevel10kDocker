@@ -15,7 +15,7 @@ RUN apt install zsh -y && \
 RUN chsh -s $(which zsh)
 
 # download oh-my-zsh
-RUN sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+RUN sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" "" --unattended
 
 # clone powerlevel10k repo to /root/.oh-my-zsh/themes/
 # and generate .zshrc
