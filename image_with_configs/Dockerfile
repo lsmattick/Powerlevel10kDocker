@@ -18,7 +18,6 @@ RUN chsh -s $(which zsh)
 RUN sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" "" --unattended
 
 # clone powerlevel10k repo to /root/.oh-my-zsh/themes/
-# and generate .zshrc
 RUN git clone --depth=1 https://github.com/romkatv/powerlevel10k.git /root/.oh-my-zsh/themes/powerlevel10k
 
 # add preset p10k configs so there is no set up required
