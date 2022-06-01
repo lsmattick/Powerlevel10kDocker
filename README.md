@@ -7,4 +7,4 @@ I highly recommend downloading the recommended fonts that go with the powerlevel
 
 For a minimal image, refer to the minimal_image directory. If you want to use preset configs, load in the .p10k.zsh and .zshrc files to your docker image. An example of this is given in the image_wigh_configs directory.
 
-To generate the .p10k.zsh and .zshrc files, get a docker container running using the minimal_image docker file. Go throug the set up process. Make any final customizations by editing the .p10k.zsh file. Save the resulting .p10k.zsh and .zshrc.
+To generate the .p10k.zsh and .zshrc files, get a docker container running using the minimal_image docker file. Go through the set up process. Make any final customizations by editing the .p10k.zsh file. Save the resulting .p10k.zsh and .zshrc.
